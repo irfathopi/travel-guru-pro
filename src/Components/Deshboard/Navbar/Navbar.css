@@ -1,0 +1,21 @@
+.nav__logo{
+    width: 100px;
+    margin-left: 10px;
+}
+.navbar{
+    margin: 0 auto;
+    padding-top:10px;
+
+}
+ul li{
+    margin-left: 30px;
+}
+a{
+    color: white
+}
+.items{
+    margin-top: 5px
+}
+.hambar__icon{
+    background-color: white
+}

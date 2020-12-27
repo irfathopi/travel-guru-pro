@@ -1,0 +1,64 @@
+.Hotels__maindiv{
+    margin: 0 auto;
+    padding: 50px;
+   margin-top: 5%;
+   
+}
+
+.main__divs1{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0.20772058823529416) 31%, rgba(0,0,0,1) 100%, rgba(0,0,0,0.7259278711484594) 100%), url("https://i.ibb.co/XDxXHmJ/Sajek.png");
+    width: 200px;
+    height: 350px;
+    background-size: cover;
+    border: none;
+   
+}
+
+.main__divs1:hover{
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.main__divs2{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0.20772058823529416) 31%, rgba(0,0,0,1) 100%, rgba(0,0,0,0.7259278711484594) 100%), url("https://i.ibb.co/7Yrt5Br/sundorbon.png");
+    width: 200px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    
+}
+
+.main__divs2:hover{
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.main__divs3{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0.20772058823529416) 31%, rgba(0,0,0,1) 100%, rgba(0,0,0,0.7259278711484594) 100%), url("https://i.ibb.co/YkZwghT/Sreemongol.png");
+    width: 200px;
+    height: 350px;
+    background-size: cover;
+    border: none;
+}
+
+.main__divs3:hover{
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.min__divs{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.min__divs h2{
+    padding-top: 140%;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.details__part h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px
+}

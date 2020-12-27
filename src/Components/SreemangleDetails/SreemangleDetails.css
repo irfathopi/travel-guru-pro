@@ -1,0 +1,18 @@
+.sreemangle{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.7259278711484594) 100%, rgba(0,0,0,0.20772058823529416) 100%, rgba(0,212,255,1) 100%),url("https://i.ibb.co/W5MWWgW/Rectangle-1.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.discription{
+    color: white
+}
+.srimangledetails{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.label{
+    float:left;
+    font-weight: bold;
+}

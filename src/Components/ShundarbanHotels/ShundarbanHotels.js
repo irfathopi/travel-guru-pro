@@ -1,18 +1,21 @@
-import React, { useContext } from 'react';
-import logo from '../../Icon/Logo.png';
-import './SreemangleHotels.css';
+import React, { useContext, useState } from 'react';
+import Navbar from '../Deshboard/Navbar/Navbar';
+import './ShundarbanHotels.css';
 import star from '../../Icon/star_1_.png'
 import { UserContext } from '../../App';
 import { Link } from 'react-router-dom';
+import logo from '../../Icon/Logo.png';
 
-const SreemangleHotels = () => {
+const ShundarbanHotels = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
+
     return (
-        <div className ="background">
-        <Link to ="/"><img className="logo" src={logo} alt=""/></Link>
+        <div>
+            <div className ="background">
+            <Link to ="/"><img className="logo" src={logo} alt=""/></Link>
 
         <div className="place">
-            <h1>Hello! {loggedInUser.name} Stay in Sreemangle</h1>
+            <h1>Hello! {loggedInUser.name} Stay in Shundarban</h1>
             <h2 >252 stays Apr 13-17 3 guests</h2>
         </div>
 
@@ -72,7 +75,9 @@ const SreemangleHotels = () => {
             </div>
         </div>
         </div>
+            
+        </div>
     );
 };
 
-export default SreemangleHotels;
+export default ShundarbanHotels;

@@ -13,6 +13,7 @@ const Hotels = () => {
                 <h1>COX'S BAZAR</h1>
                 <p>From the early 9th century the greater Chittagong area, including Cox's Bazar, was under the rule of Arakan kings until its conquest by the Mughals in 1666 AD.</p>
                 <button type="button" class="btn btn-warning">Booking <FontAwesomeIcon icon={faArrowRight} /> </button>
+               
             </div>
             <div className="hotels__div col-md-7 row d-flex justify-content-around">
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../Deshboard/Navbar/Navbar';
 import './SajekDetails.css';
 
@@ -32,7 +33,7 @@ const SajekDetails = () => {
 
                             <br/>
 
-                            <button type="button" class="btn btn-warning btn-lg btn-block">Start Booking</button>
+                            <Link to="/sajekhotels"><button type="button" class="btn btn-warning btn-lg btn-block">Start Booking</button></Link>
                         </div>
 
                         </div>

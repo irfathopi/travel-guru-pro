@@ -4,6 +4,8 @@ import "firebase/auth";
 import {UserContext} from '../../App';
 import firebaseConfig from './firebase.config';
 import { useHistory, useLocation } from 'react-router-dom';
+import './Login.css';
+
 
 
 const Login = () => {
@@ -15,9 +17,11 @@ const Login = () => {
     if(firebase.apps.length === 0){
         firebase.initializeApp(firebaseConfig);
     }
+
+    const googleProvider = new firebase.auth.GoogleAuthProvider();
+
     const handleGoogleSignIn = () => {
-        var provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().signInWithPopup(provider).then(function(result) {
+        firebase.auth().signInWithPopup(googleProvider).then(function(result) {
             const {displayName, email} = result.user;
             const signedInUser = {name : displayName , email}
             setLoggedInUser(signedInUser);
@@ -27,15 +31,13 @@ const Login = () => {
             // Handle Errors here.
             var errorCode = error.code;
             var errorMessage = error.message;
-           
-          });
-    
+          })
     }
     
 
     return (
-        <div>
-            <button onClick ={handleGoogleSignIn}>google sign in</button>
+        <div className="d-flex justify-content-center">
+            <button className="google__btn" onClick ={handleGoogleSignIn}>google sign in</button>
         </div>
     );
 };

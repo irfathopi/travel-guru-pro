@@ -17,20 +17,20 @@ const Navbar = () => {
                                 <input class="form-control mr-sm-3 " type="search" placeholder="Search" aria-label="Search"/>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">News <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white" target="blank" href="https://www.traveldailynews.com/">News <span class="sr-only">(current)</span></a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Blogs</a>
+                            <a class="nav-link text-white" target="blank" href="https://www.placepass.com/blog/best-travel-blogs">Blogs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Destination</a>
+                            <a class="nav-link text-white" target="blank" href="https://travel.usnews.com/rankings/worlds-best-vacations/">Destination</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact</a>
+                            <a class="nav-link text-white" target="blank" href="https://www.linkedin.com/in/irfath-hossain-5616b61b1/">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-warning">Log In</button>
+                            <Link to ="/login"><button type="button" class="btn btn-warning">Log In</button></Link>
                         </li>
                     </ul>
                 </div>

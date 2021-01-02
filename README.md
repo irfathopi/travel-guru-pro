@@ -1,3 +1,5 @@
+Live: https://ecstatic-keller-edd729.netlify.app/
+
 Features
 This is a Hotel Booking Application.
 Created a travel website where users can book his/her suitable place.React router is used in this purpose.
